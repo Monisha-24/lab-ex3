@@ -1,0 +1,36 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class counter
+{
+	public static void main(String[] args) {
+	    counter 1 obj=new counter1();
+		System.out.println("object counter1");
+		obj.increment();
+		
+		counter1 obj1=new counter1();
+		System .out.println("object 2");
+		obj1.increment();
+		
+		counter 1.obj2=new counter1();
+		System .out println("object 3");
+		obj2.increment();
+	}
+}
+class counter1
+{
+    static int i=10;
+    int j=10;
+    void increment ()
+    {
+        i=i+10;
+        j=j+10;
+        System .out.println(i);
+        System .out.println(j);
+    }
+}
